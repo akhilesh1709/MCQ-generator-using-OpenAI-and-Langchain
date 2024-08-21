@@ -1,0 +1,6 @@
+MCQ,Choices,Correct
+What is the goal of supervised learning in machine learning?,a: To learn the underlying structure of data | b: To make predictions on unseen data based on labeled data | c: To interact with an environment and maximize cumulative rewards | d: To automate the model selection process,b
+Which type of learning involves training on data without labeled responses?,a: Supervised Learning | b: Unsupervised Learning | c: Reinforcement Learning | d: Feature Engineering,b
+What is the purpose of feature engineering in machine learning?,"a: To automate the model selection process | b: To make predictions on unseen data | c: To select, modify, or create new variables from raw data | d: To maximize cumulative rewards",c
+Which machine learning algorithm is used for classification tasks by splitting data into branches based on feature values?,a: Linear Regression | b: Decision Trees | c: Support Vector Machines | d: Neural Networks,b
+In which industry can machine learning be used for predicting patient outcomes and disease diagnosis?,a: Retail | b: Transportation | c: Healthcare | d: Marketing,c
