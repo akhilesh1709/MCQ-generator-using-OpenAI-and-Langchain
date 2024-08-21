@@ -1,0 +1,6 @@
+MCQ,Choices,Correct
+What is the goal of supervised learning?,a: To train on data without labeled responses | b: To learn the underlying structure of the data | c: To learn a mapping from inputs to outputs | d: To interact with an environment and maximize rewards,c
+Which type of learning involves clustering and dimensionality reduction?,a: Supervised Learning | b: Unsupervised Learning | c: Reinforcement Learning | d: Deep Learning,b
+What is the process of adjusting model parameters using a training dataset called?,a: Feature Engineering | b: Model Training | c: Overfitting | d: Underfitting,b
+Which algorithm is used for fraud detection in finance?,a: Linear Regression | b: Decision Trees | c: Support Vector Machines | d: Neural Networks,c
+What is the future trend focused on making ML models more interpretable?,a: Explainable AI (XAI) | b: AutoML | c: Federated Learning | d: Edge AI,a
