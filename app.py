@@ -40,4 +40,25 @@ with st.form("user_inputs"):
                     )
             except Exception as e:
                 traceback.print_exception(type(e), e, e.__traceback__)
-                st.error("Error")
+                st.error(e)
+            
+            else:
+                print(f"Total tokens:{cb.total_tokens}")
+                print(f"Prompt tokens:{cb.prompt_tokens}")
+                print(f"Completion tokens:{cb.completion_tokens}")
+                print(f"Total cost:{cb.total_cost}")
+
+                if isinstance(response, dict):
+                    quiz = response.get('quiz', None)
+                    if quiz is not None:
+                        table_data = get_table_data(quiz)
+                        if table_data is not None:
+                            df = pd.DataFrame(table_data)
+                            df.index = df.index+1
+                            st.table(df)
+                            st.text_area(label="Review",value=response["review"])
+                        else:
+                            st.error("Failed to generate MCQs")
+                
+                else:
+                    st.write(response)
