@@ -12,7 +12,7 @@ from src.mcqgenerator.logger import logging
 with open('response.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
 
-st.title("MCQs creator")
+st.title("MCQs generator")
 
 with st.form("user_inputs"):
     uploaded_file = st.file_uploader("Upload a PDF or txt file ")
