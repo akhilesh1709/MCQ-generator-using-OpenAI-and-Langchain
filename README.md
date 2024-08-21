@@ -1,12 +1,15 @@
 # MCQ Generator
 
-This project is a streamlit application that generates Multiple Choice Questions (MCQs) from text input (PDF or TXT files) using OpenAI's GPT-3.5-turbo model. The application allows users to generate, review, and evaluate quizzes based on the content of the uploaded files.
+This is a Streamlit application that generates multiple-choice questions (MCQs) based on a given text or PDF file. The application uses the LangChain library to interact with the OpenAI API and generate the quiz questions.
 
 ## Features
 
-- **File Upload:** Upload PDF or TXT files to extract text.
-- **MCQ Generation:** Automatically generate a specified number of MCQs based on the text.
-- **Dynamic Quiz Table:** View the generated MCQs in a table format.
+- **Upload File**: Users can upload a PDF or text file containing the content for which they want to generate MCQs.
+- **Set MCQ Count**: Users can specify the number of MCQs they want to generate, with a range of 3 to 50.
+- **Specify Subject**: Users can enter the subject for which the MCQs are being generated.
+- **Set Complexity Level**: Users can set the complexity level of the generated questions, with the option to choose "Simple" as the default.
+- **Generate MCQs**: The application generates the requested number of MCQs based on the uploaded content and the user's input.
+- **Display MCQs**: The generated MCQs are displayed in a table format, showing the question, options, and the correct answer.
 
 ## Installation
 
